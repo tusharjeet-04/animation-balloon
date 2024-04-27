@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sky{
+    background-image: url(./dino-reichmuth-kk3W5-0b6e0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.balloon{
+    background-image: url(boopathi-rajaa-nedunchezhiyan-03e47qrUswQ-unsplash-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 295px;
+    height: 450px;
+    animation: balloon 10s infinite normal linear;
+    position: absolute;
+    left: 150px;
+}
+@keyframes balloon{
+    0%{
+        transform: translateY(600px);
+    }
+    100%{
+        transform: translateY(-800px);
+    }
+}
+.plane{
+    background-image: url(paul-jespers-AQJ5cLTR_AM-unsplash-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    animation: plane 5s infinite linear normal;
+}
+@keyframes plane{
+    0%{
+        transform: translate(-180px ,-180px);
+    }
+    100%{
+        transform: translate(600px,400px);
+    }
+
+}
+.meteor{
+    background-image: url(—Pngtree—meteor\ falling\ burning\ effect_7553114\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 650px;
+    animation: meteor 3.5s infinite linear normal;
+    
+}
+@keyframes meteor{
+    0%{
+        transform: translate(200px,-250px);
+    }
+    100%{
+        transform: translate(-200px,420px);
+    }
+}
+.blast{
+    background-image: url(image-from-rawpixel-id-12650225-png.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 70px;
+    right: 420px;
+    animation: blast 5s infinite normal linear;
+    animation-delay: 5s;
+
+}
+@keyframes blast{
+    0%{
+        transform: scale(0,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
